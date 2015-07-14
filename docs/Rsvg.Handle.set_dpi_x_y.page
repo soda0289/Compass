@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.set_dpi_x_y"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>void</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_set_dpi_x_y</api:name>
+      <api:arg>
+        <api:type>Number(gdouble)</api:type>
+        <api:name>dpi_x</api:name>
+      </api:arg>
+      <api:arg>
+        <api:type>Number(gdouble)</api:type>
+        <api:name>dpi_y</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.set_dpi_x_y</title>
+  <synopsis><code mime="text/x-gjs">
+function set_dpi_x_y(dpi_x: Number(gdouble), dpi_y: Number(gdouble)): void {
+    // Gjs wrapper for rsvg_handle_set_dpi_x_y()
+}
+  </code></synopsis>
+  <p>Sets the DPI for the outgoing pixbuf. Common values are
+75, 90, and 300 DPI. Passing a number &lt;= 0 to #dpi_x or <code>dpi_y</code> will
+reset the DPI to whatever the default value happens to be.</p>
+  <p>Since 2.8</p>
+<terms>
+<item>
+<title><code>dpi_x</code></title>
+  <p>Dots Per Inch (aka Pixels Per Inch)</p>
+</item>
+<item>
+<title><code>dpi_y</code></title>
+  <p>Dots Per Inch (aka Pixels Per Inch)</p>
+</item>
+</terms>
+
+</page>

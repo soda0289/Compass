@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.set_base_gfile"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>void</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_set_base_gfile</api:name>
+      <api:arg>
+        <api:type>Gio.File</api:type>
+        <api:name>base_file</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.set_base_gfile</title>
+  <synopsis><code mime="text/x-gjs">
+function set_base_gfile(base_file: <link href="../Gio-2.0/Gio.File.html">Gio.File</link>): void {
+    // Gjs wrapper for rsvg_handle_set_base_gfile()
+}
+  </code></synopsis>
+  <p>Set the base URI for <code>handle</code> from @file.
+Note: This function may only be called before <link xref="Rsvg.Handle.write"/>
+or <link xref="Rsvg.Handle.read_stream_sync"/> has been called.</p>
+  <p>Since 2.32</p>
+<terms>
+<item>
+<title><code>base_file</code></title>
+  <p>a <link href="../Gio-2.0/Gio.File.html">Gio.File</link></p>
+</item>
+</terms>
+
+</page>

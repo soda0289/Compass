@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.new_with_flags"
+      type="topic"
+      style="constructor"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="constructor" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Rsvg.Handle</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_new_with_flags</api:name>
+      <api:arg>
+        <api:type>Rsvg.HandleFlags</api:type>
+        <api:name>flags</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.new_with_flags</title>
+  <synopsis><code mime="text/x-gjs">
+function new_with_flags(flags: <link xref="Rsvg.HandleFlags">Rsvg.HandleFlags</link>): <link xref="Rsvg.Handle">Rsvg.Handle</link> {
+    // Gjs wrapper for rsvg_handle_new_with_flags()
+}
+  </code></synopsis>
+  <p>Creates a new <link xref="Rsvg.Handle"/> with flags <code>flags</code>.</p>
+  <p>Since 2.36</p>
+<terms>
+<item>
+<title><code>flags</code></title>
+  <p>flags from <link xref="Rsvg.HandleFlags"/></p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p>a new <link xref="Rsvg.Handle"/></p>
+</item>
+</terms>
+
+</page>

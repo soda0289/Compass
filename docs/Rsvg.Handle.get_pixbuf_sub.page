@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.get_pixbuf_sub"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>GdkPixbuf.Pixbuf</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_get_pixbuf_sub</api:name>
+      <api:arg>
+        <api:type>String</api:type>
+        <api:name>id</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.get_pixbuf_sub</title>
+  <synopsis><code mime="text/x-gjs">
+function get_pixbuf_sub(id: String): <link href="../GdkPixbuf-2.0/GdkPixbuf.Pixbuf.html">GdkPixbuf.Pixbuf</link> {
+    // Gjs wrapper for rsvg_handle_get_pixbuf_sub()
+}
+  </code></synopsis>
+  <p>Returns the pixbuf loaded by <code>handle</code>.  The pixbuf returned will be reffed, so
+the caller of this function must assume that ref.  If insufficient data has
+been read to create the pixbuf, or an error occurred in loading, then <code>null</code>
+will be returned.  Note that the pixbuf may not be complete until
+@rsvg_handle_close has been called.</p>
+  <p>Since 2.14</p>
+<terms>
+<item>
+<title><code>id</code></title>
+  <p>The id of an element inside the SVG, or <code>null</code> to
+render the whole SVG. For example, if you have a layer called
+"layer1" that you wish to render, pass "##layer1" as the id.</p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p>the pixbuf loaded by <code>handle</code>, or <code>null</code>.</p>
+</item>
+</terms>
+
+</page>

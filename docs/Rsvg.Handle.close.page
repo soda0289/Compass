@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.close"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Boolean</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_close</api:name>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.close</title>
+  <synopsis><code mime="text/x-gjs">
+function close(): Boolean {
+    // Gjs wrapper for rsvg_handle_close()
+}
+  </code></synopsis>
+  <p>Closes <code>handle</code>, to indicate that loading the image is complete.  This will
+return <code>true</code> if the loader closed successfully.  Note that <code>handle</code> isn't
+freed until @g_object_unref is called.</p>
+
+<terms>
+<item>
+<title><code>Returns</code></title>
+  <p><code>true</code> on success, or <code>false</code> on error</p>
+</item>
+</terms>
+
+</page>

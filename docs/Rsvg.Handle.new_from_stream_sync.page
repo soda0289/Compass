@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.new_from_stream_sync"
+      type="topic"
+      style="constructor"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="constructor" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Rsvg.Handle</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_new_from_stream_sync</api:name>
+      <api:arg>
+        <api:type>Gio.InputStream</api:type>
+        <api:name>input_stream</api:name>
+      </api:arg>
+      <api:arg>
+        <api:type>Gio.File</api:type>
+        <api:name>base_file</api:name>
+      </api:arg>
+      <api:arg>
+        <api:type>Rsvg.HandleFlags</api:type>
+        <api:name>flags</api:name>
+      </api:arg>
+      <api:arg>
+        <api:type>Gio.Cancellable</api:type>
+        <api:name>cancellable</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.new_from_stream_sync</title>
+  <synopsis><code mime="text/x-gjs">
+function new_from_stream_sync(input_stream: <link href="../Gio-2.0/Gio.InputStream.html">Gio.InputStream</link>, base_file: <link href="../Gio-2.0/Gio.File.html">Gio.File</link>, flags: <link xref="Rsvg.HandleFlags">Rsvg.HandleFlags</link>, cancellable: <link href="../Gio-2.0/Gio.Cancellable.html">Gio.Cancellable</link>): <link xref="Rsvg.Handle">Rsvg.Handle</link> {
+    // Gjs wrapper for rsvg_handle_new_from_stream_sync()
+}
+  </code></synopsis>
+  <p>Creates a new <link xref="Rsvg.Handle"/> for @stream.</p>  <p>If <code>cancellable</code> is not <code>null</code>, then the operation can be cancelled by
+triggering the cancellable object from another thread. If the
+operation was cancelled, the error %G_IO_ERROR_CANCELLED will be
+returned.</p>
+  <p>Since 2.32</p>
+<terms>
+<item>
+<title><code>input_stream</code></title>
+  <p>a <link href="../Gio-2.0/Gio.InputStream.html">Gio.InputStream</link></p>
+</item>
+<item>
+<title><code>base_file</code></title>
+  <p>a <link href="../Gio-2.0/Gio.File.html">Gio.File</link>, or <code>null</code></p>
+</item>
+<item>
+<title><code>flags</code></title>
+  <p>flags from <link xref="Rsvg.HandleFlags"/></p>
+</item>
+<item>
+<title><code>cancellable</code></title>
+  <p>a <link href="../Gio-2.0/Gio.Cancellable.html">Gio.Cancellable</link>, or <code>null</code></p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p>a new <link xref="Rsvg.Handle"/> on success, or <code>null</code> with @error filled in</p>
+</item>
+</terms>
+
+</page>

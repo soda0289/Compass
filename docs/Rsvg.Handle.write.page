@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.write"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Boolean</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_write</api:name>
+      <api:arg>
+        <api:type>ByteArray</api:type>
+        <api:name>buf</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.write</title>
+  <synopsis><code mime="text/x-gjs">
+function write(buf: ByteArray): Boolean {
+    // Gjs wrapper for rsvg_handle_write()
+}
+  </code></synopsis>
+  <p>Loads the next <code>count</code> bytes of the image.  This will return <code>true</code> if the data
+was loaded successful, and <code>false</code> if an error occurred.  In the latter case,
+the loader will be closed, and will not accept further writes. If <code>false</code> is
+returned, @error will be set to an error from the <link xref="Rsvg.Error"/> domain. Errors
+from <link href="../Gio-2.0/Gio.IOErrorEnum.html">Gio.IOErrorEnum</link> are also possible.</p>
+
+<terms>
+<item>
+<title><code>buf</code></title>
+  <p>pointer to svg data</p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p><code>true</code> on success, or <code>false</code> on error</p>
+</item>
+</terms>
+
+</page>

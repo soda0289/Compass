@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle-dpi-y"
+      type="topic"
+      style="property"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="property" type="guide"/>
+    <title type="link" role="topic">dpi-y</title>
+  </info>
+  <title>Rsvg.Handle.dpi_y</title>
+  <synopsis><code mime="text/x-gjs">
+Handle.dpi_y: Number(gdouble) (Read / Write / Construct)
+  </code></synopsis>
+
+
+</page>

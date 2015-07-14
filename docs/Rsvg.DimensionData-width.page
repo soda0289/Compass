@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page id="Rsvg.DimensionData-width"
+      type="topic"
+      style="field"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.DimensionData" group="field" type="guide"/>
+    <title type="link" role="topic">width</title>
+  </info>
+  <title>Rsvg.DimensionData.width</title>
+  <synopsis><code mime="text/x-gjs">
+DimensionData.width: Number(gint) (Read / Write)
+  </code></synopsis>
+  <p>SVG's width, in pixels</p>
+
+</page>

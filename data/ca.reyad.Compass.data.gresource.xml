@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/ca/reyad/Compass">
+    <file preprocess="xml-stripblanks">app-menu.ui</file>
+    <file preprocess="xml-stripblanks">main.ui</file>
+    <file>application.css</file>
+    <file preprocess="xml-stripblanks">compass.svg</file>
+    <file>net.hadess.SensorProxy.xml</file>
+  </gresource>
+</gresources>

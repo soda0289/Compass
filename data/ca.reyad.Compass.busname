@@ -1,0 +1,11 @@
+[Unit]
+# Optional
+Description=ca.reyad.Compass
+# Optional (obviously)
+Documentation=http://www.example.com/gtk-js-app/
+
+[BusName]
+# Optional
+Name=ca.reyad.Compass
+# Optional
+Service=ca.reyad.Compass.service

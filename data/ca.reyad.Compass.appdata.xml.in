@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>ca.reyad.Compass.desktop</id>
+  <licence>CC0</licence>
+  <description>
+    <_p>
+      A simple compass.
+    </_p>
+  </description>
+  <screenshots>
+  </screenshots>
+  <url type="homepage">https://www.example.com/gtk-js-app</url>
+</component>

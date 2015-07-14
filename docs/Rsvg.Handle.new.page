@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.new"
+      type="topic"
+      style="constructor"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="constructor" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Rsvg.Handle</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_new</api:name>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.new</title>
+  <synopsis><code mime="text/x-gjs">
+function new(): <link xref="Rsvg.Handle">Rsvg.Handle</link> {
+    // Gjs wrapper for rsvg_handle_new()
+}
+  </code></synopsis>
+  <p>Returns a new rsvg handle.  Must be freed with @g_object_unref.  This
+handle can be used for dynamically loading an image.  You need to feed it
+data using @rsvg_handle_write, then call @rsvg_handle_close when done.
+Afterwords, you can render it using Cairo or get a GdkPixbuf from it. When
+finished, free with g_object_unref(). No more than one image can be loaded
+with one handle.</p>
+
+<terms>
+<item>
+<title><code>Returns</code></title>
+  <p>A new <link xref="Rsvg.Handle"/></p>
+</item>
+</terms>
+
+</page>

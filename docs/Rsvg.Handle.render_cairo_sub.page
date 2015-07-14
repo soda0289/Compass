@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.render_cairo_sub"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Boolean</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_render_cairo_sub</api:name>
+      <api:arg>
+        <api:type>cairo.Context</api:type>
+        <api:name>cr</api:name>
+      </api:arg>
+      <api:arg>
+        <api:type>String</api:type>
+        <api:name>id</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.render_cairo_sub</title>
+  <synopsis><code mime="text/x-gjs">
+function render_cairo_sub(cr: <link href="../cairo-1.0/cairo.Context.html">cairo.Context</link>, id: String): Boolean {
+    // Gjs wrapper for rsvg_handle_render_cairo_sub()
+}
+  </code></synopsis>
+  <p>Draws a subset of a SVG to a Cairo surface</p>
+  <p>Since 2.14</p>
+<terms>
+<item>
+<title><code>cr</code></title>
+  <p>A Cairo renderer</p>
+</item>
+<item>
+<title><code>id</code></title>
+  <p>An element's id within the SVG, or <code>null</code> to render
+  the whole SVG. For example, if you have a layer called "layer1"
+  that you wish to render, pass "##layer1" as the id.</p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p><code>true</code> if drawing succeeded.</p>
+</item>
+</terms>
+
+</page>

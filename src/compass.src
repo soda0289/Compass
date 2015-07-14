@@ -1,0 +1,9 @@
+
+const CompassCanvas = new Land.Class({
+	Name: 'CompassCanvas',
+	
+	_loadSVG: function() {
+
+	}
+
+};

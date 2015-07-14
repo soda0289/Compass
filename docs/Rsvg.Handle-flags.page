@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle-flags"
+      type="topic"
+      style="property"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="property" type="guide"/>
+    <title type="link" role="topic">flags</title>
+  </info>
+  <title>Rsvg.Handle.flags</title>
+  <synopsis><code mime="text/x-gjs">
+Handle.flags: <link xref="Rsvg.HandleFlags">Rsvg.HandleFlags</link> (Read / Write / Construct Only)
+  </code></synopsis>
+  <p>Flags from <link xref="Rsvg.HandleFlags"/>.</p>
+  <p>Since 2.36</p>
+</page>

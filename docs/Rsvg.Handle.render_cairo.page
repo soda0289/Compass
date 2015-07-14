@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.render_cairo"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Boolean</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_render_cairo</api:name>
+      <api:arg>
+        <api:type>cairo.Context</api:type>
+        <api:name>cr</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.render_cairo</title>
+  <synopsis><code mime="text/x-gjs">
+function render_cairo(cr: <link href="../cairo-1.0/cairo.Context.html">cairo.Context</link>): Boolean {
+    // Gjs wrapper for rsvg_handle_render_cairo()
+}
+  </code></synopsis>
+  <p>Draws a SVG to a Cairo surface</p>
+  <p>Since 2.14</p>
+<terms>
+<item>
+<title><code>cr</code></title>
+  <p>A Cairo renderer</p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p><code>true</code> if drawing succeeded.</p>
+</item>
+</terms>
+
+</page>

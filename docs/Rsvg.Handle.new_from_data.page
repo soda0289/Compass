@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.new_from_data"
+      type="topic"
+      style="constructor"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="constructor" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Rsvg.Handle</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_new_from_data</api:name>
+      <api:arg>
+        <api:type>ByteArray</api:type>
+        <api:name>data</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.new_from_data</title>
+  <synopsis><code mime="text/x-gjs">
+function new_from_data(data: ByteArray): <link xref="Rsvg.Handle">Rsvg.Handle</link> {
+    // Gjs wrapper for rsvg_handle_new_from_data()
+}
+  </code></synopsis>
+  <p>Loads the SVG specified by <code>data</code>.</p>
+  <p>Since 2.14</p>
+<terms>
+<item>
+<title><code>data</code></title>
+  <p>The SVG data</p>
+</item>
+<item>
+<title><code>Returns</code></title>
+  <p>A <link xref="Rsvg.Handle"/> or <code>null</code> if an error occurs.</p>
+</item>
+</terms>
+
+</page>

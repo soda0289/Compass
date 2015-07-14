@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.get_position_sub"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>Boolean</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_get_position_sub</api:name>
+      <api:arg>
+        <api:type>String</api:type>
+        <api:name>id</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.get_position_sub</title>
+  <synopsis><code mime="text/x-gjs">
+function get_position_sub(id: String): [ok: Boolean, position_data: <link xref="Rsvg.PositionData">Rsvg.PositionData</link>] {
+    // Gjs wrapper for rsvg_handle_get_position_sub()
+}
+  </code></synopsis>
+  <p>Get the position of a subelement of the SVG file. Do not call from within
+the size_func callback, because an infinite loop will occur.</p>
+  <p>Since 2.22</p>
+<terms>
+<item>
+<title><code>id</code></title>
+  <p>An element's id within the SVG.
+For example, if you have a layer called "layer1" for that you want to get
+the position, pass "##layer1" as the id.</p>
+</item>
+<item>
+<title><code>ok</code></title>
+
+</item>
+<item>
+<title><code>position_data</code></title>
+  <p>A place to store the SVG fragment's position.</p>
+</item>
+</terms>
+
+</page>

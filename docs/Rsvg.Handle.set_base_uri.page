@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<page id="Rsvg.Handle.set_base_uri"
+      type="topic"
+      style="method"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="Rsvg.Handle" group="method" type="guide"/>
+    <api:function>
+      <api:returns>
+        <api:type>void</api:type>
+      </api:returns>
+      <api:name>rsvg_handle_set_base_uri</api:name>
+      <api:arg>
+        <api:type>String</api:type>
+        <api:name>base_uri</api:name>
+      </api:arg>
+    </api:function>
+  </info>
+  <title>Rsvg.Handle.prototype.set_base_uri</title>
+  <synopsis><code mime="text/x-gjs">
+function set_base_uri(base_uri: String): void {
+    // Gjs wrapper for rsvg_handle_set_base_uri()
+}
+  </code></synopsis>
+  <p>Set the base URI for this SVG. This can only be called before <link xref="Rsvg.Handle.write"/>
+has been called.</p>
+  <p>Since 2.9</p>
+<terms>
+<item>
+<title><code>base_uri</code></title>
+  <p>The base uri</p>
+</item>
+</terms>
+
+</page>

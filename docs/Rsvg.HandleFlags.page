@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<page id="Rsvg.HandleFlags"
+      type="guide"
+      style="enum"
+      xmlns="http://projectmallard.org/1.0/"
+      xmlns:api="http://projectmallard.org/experimental/api/"
+      xmlns:ui="http://projectmallard.org/1.0/ui/">
+  <info>
+    <link xref="index" group="enum" type="guide"/>
+  </info>
+  <title>Rsvg.HandleFlags</title>
+
+
+<terms>
+<item>
+<title><code>HandleFlags.FLAGS_NONE</code></title>
+  <p>none</p>
+</item>
+<item>
+<title><code>HandleFlags.FLAG_UNLIMITED</code></title>
+  <p>Allow any SVG XML without size limitations.
+  For security reasons, this should only be used for trusted input!
+  Since: 2.40.3</p>
+</item>
+<item>
+<title><code>HandleFlags.FLAG_KEEP_IMAGE_DATA</code></title>
+  <p>Keeps the image data when loading images,
+ for use by cairo when painting to e.g. a PDF surface. This will make the
+ resulting PDF file smaller and faster.
+ Since: 2.40.3</p>
+</item>
+</terms>
+  <links type="topic" ui:expanded="true"
+         api:type="function" api:mime="text/x-gjs"
+         groups="function" style="linklist">
+    <title>Functions</title>
+  </links>
+</page>

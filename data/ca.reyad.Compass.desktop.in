@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+_Name=Compass
+Icon=ca.reyad.Gnome.Compass
+Exec=gapplication launch ca.reyad.Compass
+DBusActivatable=true
+StartupNotify=true
+_Keywords=compass;north;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/ca/reyad/Compass/js">
+    <file>main.js</file>
+    <file>params.js</file>
+    <file>util.js</file>
+    <file>window.js</file>
+    <file>compass.js</file>
+  </gresource>
+</gresources>
